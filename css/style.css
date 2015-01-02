@@ -1,0 +1,105 @@
+@font-face{
+	font-family:"Source Code Pro";
+	src:url("http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,600,700,900") format("truetype");
+}
+
+/* custom bootstrap */
+
+
+
+body{
+	height:100%;
+	background: #fcfcfc url(../logo_librarysearch_semitrans.png) no-repeat right bottom;
+	background-attachment: fixed;
+}
+
+
+/*kkkk*/
+
+.lsGreen{
+	color:#4fc5bb;
+}
+
+
+
+.hero-unit{
+	background-image: url(../img/logo_librarysearch.png);  
+    background-repeat: no-repeat;  
+    background-position: right center;
+}
+
+.lsbackground{
+
+ position:fixed; 
+ bottom:30px; 
+ right:30px;
+ width:440px;
+ height:440px;
+	background-image: url(../img/logo_librarysearch_semitrans.png);  
+    background-repeat: no-repeat;  
+ background-position: right bottom;
+ background-size:400px auto;
+
+}
+
+.margin-top10px{
+	margin-top:10px;
+}
+
+
+@media screen and (max-width: 980px) {
+.navbar .nav > li > a {
+padding: 10px 2px 10px;
+}
+body {
+	background: #fcfcfc;
+}
+
+}
+
+@media (max-width: 979px) {
+.navbar-fixed-top{
+    position: fixed;
+
+  }
+}
+@media(max-width: 768px) {
+
+.navbar-fixed-top,
+  .navbar-fixed-bottom {
+
+	  padding-right: 20px;
+  padding-left: 20px;
+  }
+}
+
+
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+tr .t_top{
+ background-color: rgba(245,245,245,1);
+}
+
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: rgba(245,245,245,0.8);
+
+}
+
+#view{
+	width:100%;
+	min-width:545px;
+	height:600px;
+}
+
+img{
+	max-width:none;
+}
+
+  .social{float:left;margin-left:5px;}
+
