@@ -67,7 +67,7 @@ echo
 				</li>
             </ul>
 			<form class="navbar-form pull-right" action="result-keyword.php" method="POST"><div class="input-append">
-				<input class="span2" type="text" NAME="result-keyword" placeholder="本のタイトルを入力">
+				<input class="span2" type="text" NAME="keyword" placeholder="本のタイトルを入力">
 				<button type="submit" class="btn">Search</button>
             </div></form>
 		</div>
