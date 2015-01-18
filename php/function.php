@@ -40,7 +40,7 @@ echo
 <div class="navbar navbar-fixed-top">
 	<div class="navbar-inner">
 	<div class="container">
-		<a class="brand hidden-desktop" href="index">Library<span class="lsGreen">S</span>earch</a>
+		<a class="brand hidden-desktop" href="index.php">Library<span class="lsGreen">S</span>earch</a>
 		<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">  
                 <span class="icon-bar"></span>  
                 <span class="icon-bar"></span>  
@@ -48,7 +48,7 @@ echo
 		</a>   
 		<div class="nav-collapse collapse">
 			<ul class="nav">
-				<li><a href="index">Home</a></li>
+				<li><a href="index.php">Home</a></li>
 					<li class="divider-vertical"></li>
 				<li><a href="keyword.php">キーワード</a></li>
 				<li><a href="keyword-multi.php">複数キーワード</a></li>
@@ -60,7 +60,7 @@ echo
 					<li><a href="http://makky.io/">開発者</a></li>
 					<!--<li><a href="about_web">このWebサービスについて</a></li>-->
 					<li><a href="terms.php">利用規約</a></li>
-					<li><a href="http://blog.makky.io/contact/">お問い合わせ</a></li>
+					<li><a href="http://makky.io">お問い合わせ</a></li>
 					<li class="divider"></li>
 					<!--<li class="nav-header">Nav header</li>-->
 				</ul>

@@ -53,8 +53,8 @@
 	
 	<div class="span12">
 	<hr>
-		<p>Developed by <a class="btn btn-info" href="http://makkysnote.org/about">Masaki Kobayashi</a></p>
-		<p>I'm actively looking for a job. Please <a class="btn btn-info btn-small" href="http://blog.makkysnote.org/contact/">contact!!</a>.</p>
+		<p>Developed by <a class="btn btn-info" href="http://makky.io">Masaki Kobayashi</a></p>
+		<p>I'm actively looking for a job. Please <a class="btn btn-info btn-small" href="http://makky.io">contact!!</a>.</p>
 
 	</div>
 	  
@@ -63,25 +63,7 @@
 	  <p>Copyright © LibrarySearch All Rights Reserved.</p>
 	  
 	<div class="row">
-	  
-<script>
-(function(w,d){
-	w._gaq=[["_setAccount","UA-38405619-1"],["_trackPageview"]];
-	w.___gcfg={lang:"ja"};
-	var s,e = d.getElementsByTagName("script")[0],
-	a=function(u,f){if(!d.getElementById(f)){s=d.createElement("script");
-	s.src=u;if(f){s.id=f;}e.parentNode.insertBefore(s,e);}};
-	a(("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js","ga");
-	a("https://apis.google.com/js/plusone.js");
-	a("//b.st-hatena.com/js/bookmark_button_wo_al.js");
-	a("//platform.twitter.com/widgets.js","twitter-wjs");
-	a("//connect.facebook.net/ja_JP/all.js#xfbml=1","facebook-jssdk");
-})(this, document);
-</script>
-	  
 
-	  
-	  
 <div class="navbar-fixed-bottom">
 	<div class="container">
 	

@@ -9,7 +9,7 @@
 
 <h1>複数キーワード検索</h1>
 
-<FORM ACTION="result-keyword-multi" METHOD="POST">
+<FORM ACTION="result-keyword-multi.php" METHOD="POST">
 
 	<select name="C" size="1">
 		<?php select_list(0); ?>
