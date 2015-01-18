@@ -93,7 +93,7 @@ function query_out($data, $col){
 function keyword_check($keyword){
 
 	if(!$keyword){
-		exit('<div class="alert alert-error">キーワードを入力してもう一度試してみて下さい。</div><form class="span6 offset3 form-search" action="result-keyword" method="POST"><input class="input-block-level" type="text" NAME="keyword" placeholder="本のタイトルを入力"><button type="submit" class="btn span3 offset1 margin-top10px">Sarch</button></form>');
+		exit('<div class="alert alert-error">キーワードを入力してもう一度試してみて下さい。</div><form class="span6 offset3 form-search" action="result-keyword.php" method="POST"><input class="input-block-level" type="text" NAME="keyword" placeholder="本のタイトルを入力"><button type="submit" class="btn span3 offset1 margin-top10px">Sarch</button></form>');
 	}else{
 		$keyword_like = "%${keyword}%";
 	}
@@ -109,7 +109,7 @@ function stmt_check($stmt, $pdo){
 		$info = $pdo->errorInfo();
 		//exit($info[2]);
 		//exit("問題が発生しました.");
-		exit('<div class="alert alert-error">別のキーワードを入力してもう一度試してみて下さい。</div><form class="span6 offset3 form-search" action="result-keyword" method="POST"><input class="input-block-level" type="text" NAME="keyword" placeholder="本のタイトルを入力"><button type="submit" class="btn span3 offset1 margin-top10px">Sarch</button></form>');
+		exit('<div class="alert alert-error">別のキーワードを入力してもう一度試してみて下さい。</div><form class="span6 offset3 form-search" action="result-keyword.php" method="POST"><input class="input-block-level" type="text" NAME="keyword" placeholder="本のタイトルを入力"><button type="submit" class="btn span3 offset1 margin-top10px">Sarch</button></form>');
 	}
 	
 }
