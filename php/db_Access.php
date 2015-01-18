@@ -1,5 +1,5 @@
 <?php
-$database_info = array("name" => "LAA0199859-zjzlds", "host" => "mysql570.phy.lolipop.jp", "account" => "LAA0199859", "pass" => "ioZpYKF7");
+$database_info = array("name" => "library_search", "host" => "localhost", "account" => "library_search", "pass" => "library_search");
 //var_dump($database_info);
 try{
 	$pdo = new PDO('mysql:dbname='.$database_info["name"].'; host='.$database_info["host"].'', ''.$database_info["account"].'', ''.$database_info["pass"].'');
