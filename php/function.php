@@ -54,7 +54,7 @@ echo
 				<li><a href="keyword-multi.php">複数キーワード</a></li>
 				<li><a href="streetview.php">StreetView</a></li>
 					<li class="divider-vertical"></li>
-				<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">その他 <b class="caret"></b></a>
+				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">その他 <b class="caret"></b></a>
                 <ul class="dropdown-menu">
 					<li class="divider"></li>
 					<li><a href="http://makky.io/">開発者</a></li>
