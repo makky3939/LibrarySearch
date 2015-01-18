@@ -22,17 +22,17 @@
 		<div class="span4">
 			<h2>キーワード</h2>
 			<p>１つのキーワードを用いて検索ができます.</p>
-			<p><a class="btn" href="keyword">View details &raquo;</a></p>
+			<p><a class="btn" href="keyword.php">View details &raquo;</a></p>
 		</div>
 		<div class="span4">
 			<h2>複数キーワード</h2>
 			<p>最大３つのキーワードに条件を加える事で、詳細な検索ができます.</p>
-			<p><a class="btn" href="keyword-multi">View details &raquo;</a></p>
+			<p><a class="btn" href="keyword-multi.php">View details &raquo;</a></p>
 		</div>
 		<div class="span4">
 			<h2>StreetView</h2>
 			<p>図書館のStreetViewを用いて、表示している付近の図書を検索できます.</p>
-			<p><a class="btn" href="streetview">View details &raquo;</a></p>
+			<p><a class="btn" href="streetview.php">View details &raquo;</a></p>
 		</div>
 	</div>
 	   
@@ -63,7 +63,25 @@
 	  <p>Copyright © LibrarySearch All Rights Reserved.</p>
 	  
 	<div class="row">
+	  
+<script>
+(function(w,d){
+	w._gaq=[["_setAccount","UA-38405619-1"],["_trackPageview"]];
+	w.___gcfg={lang:"ja"};
+	var s,e = d.getElementsByTagName("script")[0],
+	a=function(u,f){if(!d.getElementById(f)){s=d.createElement("script");
+	s.src=u;if(f){s.id=f;}e.parentNode.insertBefore(s,e);}};
+	a(("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js","ga");
+	a("https://apis.google.com/js/plusone.js");
+	a("//b.st-hatena.com/js/bookmark_button_wo_al.js");
+	a("//platform.twitter.com/widgets.js","twitter-wjs");
+	a("//connect.facebook.net/ja_JP/all.js#xfbml=1","facebook-jssdk");
+})(this, document);
+</script>
+	  
 
+	  
+	  
 <div class="navbar-fixed-bottom">
 	<div class="container">
 	
