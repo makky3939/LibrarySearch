@@ -16,7 +16,7 @@ function initialize() {
 
 
 function getCustomPanoramaTileUrl(panoID, zoom, tileX, tileY) {
-	return 'http://app.makky.io/streetview/assets/library/' + panoID + '/'  + tileX + '-' +tileY + '.jpg';
+	return 'http://app.makky.io/streetview/assets/panorama/library/' + panoID + '/'  + tileX + '-' +tileY + '.jpg';
 }
 
 
