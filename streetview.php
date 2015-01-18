@@ -12,7 +12,7 @@
 <h1>Streetview検索</h1>
 
 <div id="view">　</div>
-	<form class="span6 offset3 form-search" action="result-streetview" method="POST">
+	<form class="span6 offset3 form-search" action="result-streetview.php" method="POST">
 	<input id="m" class="invisible" type="text" NAME="key">
 		
 		<button type="submit" class="btn span3 offset1 margin-top10px">この付近を検索</button>

@@ -54,7 +54,7 @@ $keyword3 = htmlspecialchars($keyword3, ENT_QUOTES, 'UTF-8');
 	
 $count = 0;
 
-$stmt = $pdo->query("SELECT * FROM tab3 WHERE `${C}` LIKE '${keyword_like}' ${SET1} `${C2}` LIKE '${keyword_like2}'${SET2} `${C3}` LIKE '${keyword_like3}'");
+$stmt = $pdo->query("SELECT * FROM book WHERE `${C}` LIKE '${keyword_like}' ${SET1} `${C2}` LIKE '${keyword_like2}'${SET2} `${C3}` LIKE '${keyword_like3}'");
 	
 	stmt_check($stmt,$pdo);
 	$count = $stmt->rowCount();

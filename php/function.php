@@ -50,23 +50,23 @@ echo
 			<ul class="nav">
 				<li><a href="index">Home</a></li>
 					<li class="divider-vertical"></li>
-				<li><a href="keyword">キーワード</a></li>
-				<li><a href="keyword-multi">複数キーワード</a></li>
-				<li><a href="streetview">StreetView</a></li>
+				<li><a href="keyword.php">キーワード</a></li>
+				<li><a href="keyword-multi.php">複数キーワード</a></li>
+				<li><a href="streetview.php">StreetView</a></li>
 					<li class="divider-vertical"></li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">その他 <b class="caret"></b></a>
+				<li class="dropdown"><a href="" class="dropdown-toggle" data-toggle="dropdown">その他 <b class="caret"></b></a>
                 <ul class="dropdown-menu">
 					<li class="divider"></li>
-					<li><a href="http://makkysnote.org/">開発者</a></li>
+					<li><a href="http://makky.io/">開発者</a></li>
 					<!--<li><a href="about_web">このWebサービスについて</a></li>-->
-					<li><a href="terms">利用規約</a></li>
-					<li><a href="http://blog.makkysnote.org/contact/">お問い合わせ</a></li>
+					<li><a href="terms.php">利用規約</a></li>
+					<li><a href="http://blog.makky.io/contact/">お問い合わせ</a></li>
 					<li class="divider"></li>
 					<!--<li class="nav-header">Nav header</li>-->
 				</ul>
 				</li>
             </ul>
-			<form class="navbar-form pull-right" action="result-keyword" method="POST"><div class="input-append">
+			<form class="navbar-form pull-right" action="result-keyword.php" method="POST"><div class="input-append">
 				<input class="span2" type="text" NAME="result-keyword" placeholder="本のタイトルを入力">
 				<button type="submit" class="btn">Search</button>
             </div></form>

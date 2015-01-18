@@ -84,7 +84,7 @@ if($keyword == "l_2"){$keyword = 64;}
 	$keyword_like = keyword_check($keyword);
 	$keyword = htmlspecialchars($keyword, ENT_QUOTES, 'UTF-8');
 
-	$stmt = $pdo->query('SELECT * FROM tab3 WHERE `'.$COL_num.'` LIKE "'.$keyword_like.'"');
+	$stmt = $pdo->query('SELECT * FROM book WHERE `'.$COL_num.'` LIKE "'.$keyword_like.'"');
 	
 	stmt_check($stmt,$pdo);
 	$count = $stmt->rowCount();
